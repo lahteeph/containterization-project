@@ -20,7 +20,7 @@
 ## Directory and file structure for the project.
   - ![Screenshot from 2024-08-02 22-26-05](https://github.com/user-attachments/assets/649bb213-b397-4b67-a58f-2884b43041e7)
 
-## Requirements 
+## Requirements
   - docker
   - docker compose
   - linux host
