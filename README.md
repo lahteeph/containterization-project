@@ -83,7 +83,8 @@ unzip it, in my case i also made some changes.
   - ![Screenshot from 2024-08-02 23-39-17](https://github.com/user-attachments/assets/1ec16a68-06f3-47c1-9019-951b9f9ab395)
 
   - log into your git hub account to verify if the repository was successfully push.
-  - ![Screenshot from 2024-08-02 23-43-23](https://github.com/user-attachments/assets/c93f3875-fc03-4165-a206-f9a7e41733b4)
+  - ![Screenshot from 2024-08-03 00-14-53](https://github.com/user-attachments/assets/d614164f-1022-4709-819a-6dff5ce9d508)
+
 
 
 
