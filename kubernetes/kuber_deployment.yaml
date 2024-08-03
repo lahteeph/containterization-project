@@ -18,5 +18,16 @@ spec:
       - name: kodecamp-app
         image: kodecamp-web:latest
         imagePullPolicy: Never
+        env:
+          - name: MESSAGE
+            valueFrom: 
+             configMapKeyRef:
+               name: hello-config
+               key: message
+          - name: PASSWORD
+            valueFrom: 
+              secretKeyRef:
+                name: my-secret
+                key: password
         ports:
         - containerPort: 8080
