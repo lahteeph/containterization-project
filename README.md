@@ -95,22 +95,31 @@ https://hub.docker.com/repositories/lahteeph
   ## requirements
   - install minikube (see https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download)
   - install kubernet (see https://kubernetes.io/docs/tasks/tools/)
-  - Create a Kubernetes manifest file for a Deployment to deploy the Docker image.
-  - ![Screenshot from 2024-08-03 01-34-19](https://github.com/user-attachments/assets/ad957b4a-477b-48ee-8081-9bbf04a4c7f8)
+## Create a Kubernetes manifest file for a Deployment to deploy the Docker image.
+  -![Screenshot from 2024-08-03 11-54-51](https://github.com/user-attachments/assets/77869313-005d-4928-a247-226bdc12efc5)
   - see (https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
-  - Create the Deployment by running the following command: (kubectl apply -f kuber_deployment.yaml)
-  - Run "kubectl get deployments" to check if the Deployment was created.
-  - ![Screenshot from 2024-08-03 01-58-22](https://github.com/user-attachments/assets/202055d4-3adf-4689-92dd-326764113080)
+  - run "minikube start".
+  - ![Screenshot from 2024-08-03 11-53-21](https://github.com/user-attachments/assets/fc8bc204-7d94-4048-a9b5-81efe2d26352)
+
+  - Create the Deployment by running the following command: kubectl apply -f kuber_deployment.yaml or kubectl create -f kuber_deployment.yaml
+  - Run "kubectl get pod" to veruty if the pod is created
+  - Run "kubectl get deployments" to check if the Deployment is created.
+  - ![Screenshot from 2024-08-03 12-06-47](https://github.com/user-attachments/assets/00b8e1a7-9739-422d-ad81-e3b0c41f036b)
  
   - Create a Kubernetes Service of type ClusterIP to expose the application.
-  - ![Screenshot from 2024-08-03 02-22-42](https://github.com/user-attachments/assets/6d6edf3b-f21d-4e6a-9e41-825b701005ec)
+  - ![Screenshot from 2024-08-03 12-07-45](https://github.com/user-attachments/assets/b3de9371-86ab-47ae-ba4c-d33425cb743d)
   - run "kubectl apply -f cluster_service.yaml" to use the service created.
   - run "kuberctl get service" to verify.
-  - ![Screenshot from 2024-08-03 11-07-47](https://github.com/user-attachments/assets/e5d0829e-0a05-4084-90bc-b0679ff7176c)
+  - ![Screenshot from 2024-08-03 12-09-31](https://github.com/user-attachments/assets/17888dff-de4a-44cc-bd19-00689afde073)
+
 # Test the deployment:
   - port forward To access the application from within the cluster
-  - run "kubectl port-forward service/kodecamp-app 8000:80"
-  - ![Screenshot from 2024-08-03 11-21-50](https://github.com/user-attachments/assets/6199ba8c-a346-4f0e-bd5a-5fd150e4b833)
+  - run "kubectl port-forward service/kodecamp-app 8000:8080"
+  - ![Screenshot from 2024-08-03 12-13-14](https://github.com/user-attachments/assets/d6fa9b7f-40d7-4b9a-a1b0-0bebca7a5699)
+  ## to verify, 
+  - since we are using a live server to this project, we test it by  "curl -v http://127.0.0.1:8000/ping"
+  - ![Screenshot from 2024-08-03 12-19-47](https://github.com/user-attachments/assets/706390d3-b901-4684-a506-f2d5838e2f16)
+
 
     
 
