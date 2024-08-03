@@ -130,6 +130,9 @@ https://hub.docker.com/repositories/lahteeph
   - Note: the password was encoded for security purposes.
   - up date "kuber_deployment.yaml":
   - ![Screenshot from 2024-08-03 18-41-12](https://github.com/user-attachments/assets/2414b9eb-773e-4bff-843e-110e71296bc9)
+  - apply all the file created using
+    -  kuberctl apply -f (filename)
+    -  ![Screenshot from 2024-08-03 19-01-48](https://github.com/user-attachments/assets/15282d4f-7ba0-4a57-ac11-01ab33d494e9)
 
    
 
