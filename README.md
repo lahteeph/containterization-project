@@ -104,8 +104,14 @@ https://hub.docker.com/repositories/lahteeph
  
   - Create a Kubernetes Service of type ClusterIP to expose the application.
   - ![Screenshot from 2024-08-03 02-22-42](https://github.com/user-attachments/assets/6d6edf3b-f21d-4e6a-9e41-825b701005ec)
-  - run kubectl apply -f cluster_service.yaml
+  - run "kubectl apply -f cluster_service.yaml" to use the service created.
+  - run "kuberctl get service" to verify.
+  - ![Screenshot from 2024-08-03 11-07-47](https://github.com/user-attachments/assets/e5d0829e-0a05-4084-90bc-b0679ff7176c)
+# Test the deployment:
   - port forward To access the application from within the cluster
+  - run "kubectl port-forward service/kodecamp-app 8000:80"
+  - ![Screenshot from 2024-08-03 11-21-50](https://github.com/user-attachments/assets/6199ba8c-a346-4f0e-bd5a-5fd150e4b833)
+
     
 
 
