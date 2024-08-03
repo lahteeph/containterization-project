@@ -1,5 +1,5 @@
 # containerization-project
-# objectives
+# Objectives
 ## Create a simple web application:
   - Use Python Programming Language to create your simple application
   - The application should display a simple message like "Hello, Welcome to KodeCamp DevOps Bookcamp!"
@@ -16,7 +16,7 @@
   - Port-forward your service to a localhost port and access it through your web browser.
   - Verify that the application displays the expected message.
 
-# steps in Acheivng the above objectives
+# Steps in Acheivng the above objectives
 ## Directory and file structure for the project.
   -  ![Screenshot from 2024-08-02 22-26-05](https://github.com/user-attachments/assets/4d8da70f-e005-41a6-b6e1-98671399f4d3)
 
@@ -90,6 +90,23 @@ unzip it, in my case i also made some changes.
 https://hub.docker.com/repositories/lahteeph
 
 
+# Deploy the application to a Kubernetes cluster:
+## Deploy the app to your minikube cluster
+  ## requirements
+  - install minikube (see https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download)
+  - install kubernet (see https://kubernetes.io/docs/tasks/tools/)
+  - Create a Kubernetes manifest file for a Deployment to deploy the Docker image.
+  - ![Screenshot from 2024-08-03 01-34-19](https://github.com/user-attachments/assets/ad957b4a-477b-48ee-8081-9bbf04a4c7f8)
+  - see (https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+  - Create the Deployment by running the following command: (kubectl apply -f kuber_deployment.yaml)
+  - Run "kubectl get deployments" to check if the Deployment was created.
+  - ![Screenshot from 2024-08-03 01-58-22](https://github.com/user-attachments/assets/202055d4-3adf-4689-92dd-326764113080)
+ 
+  - Create a Kubernetes Service of type ClusterIP to expose the application.
+  - ![Screenshot from 2024-08-03 02-22-42](https://github.com/user-attachments/assets/6d6edf3b-f21d-4e6a-9e41-825b701005ec)
+  - run kubectl apply -f cluster_service.yaml
+  - port forward To access the application from within the cluster
+    
 
 
 
