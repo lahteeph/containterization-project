@@ -120,6 +120,18 @@ https://hub.docker.com/repositories/lahteeph
   - since we are using a live server to this project, we test it by  "curl -v http://127.0.0.1:8000/ping"
   - ![Screenshot from 2024-08-03 12-19-47](https://github.com/user-attachments/assets/706390d3-b901-4684-a506-f2d5838e2f16)
 
+# Additional Configuration
+## Configure a ConfigMap to externalize the message "Hello, Kubernetes!" and update your application to read this message from the ConfigMap.
+## Create a Secret to store a sensitive piece of information (e.g., a password) and update your application to use this Secret.
+  - create a configMap.yaml file:
+  - ![Screenshot from 2024-08-03 18-51-30](https://github.com/user-attachments/assets/d22dede1-772f-495d-a30b-2ae0c5d034bc)
+  - create a secret.yaml file
+  - ![Screenshot from 2024-08-03 18-45-06](https://github.com/user-attachments/assets/406a6622-ec16-4959-8688-6d987aaa92f0)
+  - Note: the password was encoded for security purposes.
+  - up date "kuber_deployment.yaml":
+  - ![Screenshot from 2024-08-03 18-41-12](https://github.com/user-attachments/assets/2414b9eb-773e-4bff-843e-110e71296bc9)
+
+   
 
     
 
