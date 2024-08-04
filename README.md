@@ -18,7 +18,7 @@
 
 # Steps in Acheivng the above objectives
 ## Directory and file structure for the project.
-  -  ![Screenshot from 2024-08-02 22-26-05](https://github.com/user-attachments/assets/4d8da70f-e005-41a6-b6e1-98671399f4d3)
+  -  ![Screenshot from 2024-08-03 12-38-57](https://github.com/user-attachments/assets/b6bd610f-1108-40e4-8554-ce4bfc9ded61)
 
 ## Requirements
   - docker
