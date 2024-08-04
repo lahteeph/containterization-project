@@ -40,7 +40,7 @@ unzip it, in my case i also made some changes.
   - ![Screenshot from 2024-08-02 21-15-42](https://github.com/user-attachments/assets/9e90db1b-e281-4e0b-830c-c992a8dc4fed)
   - .....
 ## requirments.txt
-  - ![Screenshot from 2024-08-02 21-23-40](https://github.com/user-attachments/assets/01f722ef-7c0d-4f94-a220-e812b2af4c59)
+  - ![Screenshot from 2024-08-03 17-31-03](https://github.com/user-attachments/assets/d27a77b0-fa9a-44c6-b687-41f68ce25356)
 
   - "Flask" as said earlier is a web framework for phython
   - Werkzeug provides a foundation for Flask's request and response handling, routing, and other core functionality. Werkzeug is a dependency of Flask.
