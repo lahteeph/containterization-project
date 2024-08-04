@@ -43,7 +43,6 @@ unzip it, in my case i also made some changes.
   - ![Screenshot from 2024-08-03 17-31-03](https://github.com/user-attachments/assets/d27a77b0-fa9a-44c6-b687-41f68ce25356)
 
   - "Flask" as said earlier is a web framework for phython
-  - Werkzeug provides a foundation for Flask's request and response handling, routing, and other core functionality. Werkzeug is a dependency of Flask.
   - .....
 ## Dockerfile
   - ![Screenshot from 2024-08-02 21-39-59](https://github.com/user-attachments/assets/f7f0a52b-e0a6-4981-bae4-5c7432ceea84)
