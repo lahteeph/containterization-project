@@ -16,7 +16,7 @@
   - Port-forward your service to a localhost port and access it through your web browser.
   - Verify that the application displays the expected message.
 
-# Steps in Acheivng the above objectives
+# Steps in Achieving the above objectives
 ## Directory and file structure for the project.
   -  ![Screenshot from 2024-08-03 12-38-57](https://github.com/user-attachments/assets/b6bd610f-1108-40e4-8554-ce4bfc9ded61)
 
